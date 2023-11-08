@@ -9,7 +9,7 @@ void setup() {
 
 void loop()
 {
-  int sensor;
+  int sensorValue = analogRead(sensorPin);
   float temperatura;
   lcd.clear();
   lcd.print("Temp =");
