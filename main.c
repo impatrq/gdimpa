@@ -2,14 +2,15 @@
 #include <Wire.h> 
 
 LiquidCrystal_I2C lcd(0x27,20,4); 
-int sensor;
-float temperatura;
+
 void setup() {
   lcd.begin(16, 2);  // Inicializa el LCD con 16 columnas y 2 filas
 }
 
 void loop()
 {
+  int sensor;
+  float temperatura;
   lcd.clear();
   lcd.print("Temp =");
   sensor = analogRead(A0); //leemos el valor del sensor del pin A0
