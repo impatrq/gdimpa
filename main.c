@@ -14,7 +14,7 @@ void setup() {
 void loop()
 {
   int sensorValue = analogRead(sensorPin); // Lee el valor del sensor LM35
-  float temperatureC = ((sensor * 5.0)/1024)/100; // Convierte el valor a temperatura en grados Celsius
+  float temperatureC = (((sensor * 5.0)/1024)/100)/ 9; // Convierte el valor a temperatura en grados Celsius
   lcd.clear(); // Borra el contenido anterior del LCD
   lcd.setCursor(0, 0); // Posiciona el cursor en la primera fila, primera columna
   lcd.print("Temperatura: "); // Muestra el texto "Temperatura: " en el LCD
