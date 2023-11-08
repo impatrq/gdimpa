@@ -1,7 +1,7 @@
 #include <LiquidCrystal.h> 
 #include <Wire.h> 
 
-LiquidCrystal lcd(2,3,9,10,11,12);
+LiquidCrystal_I2C lcd(0x27,20,4); 
 int sensor;
 float temperatura;
 void setup() {
