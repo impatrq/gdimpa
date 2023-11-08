@@ -20,6 +20,6 @@ void loop()
   lcd.print("Temperatura: "); // Muestra el texto "Temperatura: " en el LCD
   lcd.setCursor(0,1); // Posiciona el cursor en la segunda fila, primera columna
   lcd.print(temperatureC);// Muestra la temperatura en el LCD
-  lcd.print(" C");  // Muestra el símbolo de grados Celsius en el LCD
+  lcd.print(" C +/- 1C");  // Muestra el símbolo de grados Celsius en el LCD
   delay (1000);  // Espera 1 segundo antes de volver a leer el sensor
 }//fue hecho atravez de arduino
