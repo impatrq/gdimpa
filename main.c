@@ -13,8 +13,6 @@ void loop()
   float temperatureC = ((sensor * 5.0)/1024)/100;
   lcd.clear();
   lcd.print("Temperatura: ");
-  sensor = analogRead(A0); //leemos el valor del sensor del pin A0
-
   lcd.setCursor(0,1);
   lcd.print(temperatura);
   delay (1000);
