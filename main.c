@@ -18,5 +18,6 @@ void loop()
   lcd.print("Temperatura: ");
   lcd.setCursor(0,1);
   lcd.print(temperatureC);
+  lcd.print(" C");
   delay (1000);
 }//fue hecho atravez de arduino
