@@ -1,4 +1,5 @@
 #include <LiquidCrystal.h> 
+#include <Wire.h> 
 
 LiquidCrystal lcd(2,3,9,10,11,12);
 int sensor;
