@@ -5,7 +5,7 @@ LiquidCrystal_I2C lcd(0x27,20,4);
 int sensor;
 float temperatura;
 void setup() {
-  lcd.begin(16,2);   //indicamos el tamaño de la pantalla
+  lcd.begin(16, 2);  // Inicializa el LCD con 16 columnas y 2 filas
 }
 
 void loop()
