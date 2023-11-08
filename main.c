@@ -3,6 +3,8 @@
 
 LiquidCrystal_I2C lcd(0x27,20,4); 
 
+const int sensorPin = A0;
+
 void setup() {
   lcd.begin(16, 2);  // Inicializa el LCD con 16 columnas y 2 filas
 }
