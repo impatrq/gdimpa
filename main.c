@@ -9,10 +9,6 @@ void setup() {
   lcd.init();
   // Print a message to the LCD.
   lcd.backlight();
-  lcd.setCursor(3,0);
-  lcd.setCursor(2,1);
-  lcd.setCursor(0,2);
-  lcd.setCursor(2,3);
 }
 
 void loop()
