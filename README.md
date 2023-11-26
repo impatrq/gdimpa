@@ -1,6 +1,6 @@
 <div align="center">
 
-# [*GDIMPA*](https://smart-toolbox.vercel.app/)
+# *GDIMPA*
 
 <img src="Imagenes/Logo del proyecto/Logo del proyecto GDIMPA.jpg" height="400" width="400" />
 
